@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="225dp"
+        android:layout_height="29dp"
+        android:text="Phương trình bậc 2:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvPhuongTrinh"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Mời bấm nút nhập" />
+
+
+
+    <Button
+        android:id="@+id/btnNhap"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="Nhập" />
+    <Button
+        android:id="@+id/btnGiai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giải phương trình"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát " />
+</LinearLayout>
